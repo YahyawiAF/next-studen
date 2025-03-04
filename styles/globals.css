@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/gotham-book');
+@import url('https://fonts.cdnfonts.com/css/lucida-sans');
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+@layer base {
+    @font-face {
+    font-family: 'CircularStd';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/CircularStd-Medium.woff2') format('woff2');
+    }
+    
+    @font-face {
+    font-family: 'CircularStd';
+    font-style: bold;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/public/fonts/CircularStd-Book.woff2') format('woff2');
+    }
+
+    @font-face {
+    font-family: 'CircularStd';
+    font-style: bolder;
+    font-weight: 800;
+    font-display: swap;
+    src: local(''), url('/public/fonts/CircularStd-Bold.woff2') format('woff2');
+    }
+
+        @font-face {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('/fonts/Quicksand-Regular.ttf') format('ttf');
+        }
+
+        @font-face {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-display: swap;
+        src: url('/fonts/Quicksand-Medium.ttf') format('ttf');
+        }
+        
+        @font-face {
+        font-family: 'Quicksand';
+        font-style: bold;
+        font-weight: 600;
+        font-display: swap;
+        src: url('/public/fonts/Quicksand-SemiBold.ttf') format('ttf');
+        }
+        
+        @font-face {
+        font-family: 'Quicksand';
+        font-style: bolder;
+        font-weight: 800;
+        font-display: swap;
+        src: local(''), url('/public/fonts/Quicksand-Bold.ttf') format('ttf');
+        }
+ }
+
