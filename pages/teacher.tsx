@@ -21,7 +21,9 @@ function Teacher() {
       case "edit":
         view = <TeacherForm setPage={setPage} row={row} />;
         break;
-        default: view = <TeacherList setPage={setPage} />; break;
+      default:
+        view = <TeacherList setPage={setPage} />;
+        break;
     }
     return view;
   };
